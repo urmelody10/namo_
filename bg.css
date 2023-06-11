@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+ body{background-color: #fff;
+      background-image: linear-gradient(90deg, rgba(255, 164, 213, 0.5) 50%, transparent 0),
+      linear-gradient(rgba(255, 179, 230, 0.693) 50%, transparent 0);
+      background-size: 30px 30px;
+      font-family: 'Itim', cursive;
+      text-align: center;
+
+      }
+
+      @media screen and (max-width: 300px) {
+        span.psw {
+            display: block;
+            float: none;
+        }
+        .cancelbtn {
+            width: 100%;
+        }
+        }
+
+
+        .slideshow-container {
+            max-width: 400px;
+            max-width: 200px;
+           
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+            top: 100px;
+          }
